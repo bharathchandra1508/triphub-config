@@ -8,3 +8,8 @@ bms:
     email: "bharathchandra559@gmail.com"
   onCallSupport:
     - +91 6360365916
+
+app:
+  jwt:
+    secret: asd345qwerty123rgbhnjuhgqase3r41qa4Add commentMore actions
+    expiration: 3600000
