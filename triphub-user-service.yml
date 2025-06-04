@@ -11,5 +11,5 @@ bms:
 
 app:
   jwt:
-    secret: asd345qwerty123rgbhnjuhgqase3r41qa4Add commentMore actions
+    secret: asd345qwerty123rgbhnjuhgqase3r41qa4
     expiration: 3600000
