@@ -1,0 +1,32 @@
+server:
+  address: 0.0.0.0
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://user1:vEnvyye9dHOom4UA@cluster0.lo0wsrd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: userdb
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active:
+      - "qa"
+
+app:
+  jwt:
+    secret: asd345qwerty123rgbhnjuhgqase3r41qa4
+    expiration: 3600000
+
+build:
+  version: "3.0"
+
+bms:
+  message: "Welcome to Triphub APIs"
+  contactDetails:
+    name: "Bharath - Developer"
+    email: "bharathchandra1508@gmail.com"
+  onCallSupport:
+    - +91 6360365916
